@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <title>HEROES</title>
+</head>
+<body>
+  <div id="landing">
+    <div id="starburst">
+      <img src="img/starburst.png" id="starburst-image" />
+    </div>
+    <div id="text">
+      <h1>HEROES</h1>
+    </div>
+  </div>
+
+  <div id="batman">
+    <div id="batman-box" data-rellax-speed="1.5"></div>
+    <div id="batman-details">
+      <h2>The <span id="grey">Batman</span></h2>
+    </div>
+    <div id="bats" data-rellax-speed="-0.5">
+      <img src="img/bats.png" id="size" />
+    </div>
+  </div>
+
+  
+  <div id="indiana">
+    <div id="indiana-details">
+      <h2>Indiana <span id="jones">Jones</span></h2>
+    </div>
+    <div id="indiana-box" data-rellax-speed="1.5"></div>
+    <div id="sand">
+      <img src="img/sand.png" />
+    </div>
+  </div>
+
+  <div id="doctor">
+    <div id="doctor-details">
+      <h2>The <span id="doctor">Doctor</span></h2>
+    </div>
+    <div id="doctor-box" data-rellax-speed="1.5"></div>
+    <div id="space">
+      <img src="img/space.png" id="space-size" />
+    </div>
+  </div>
+
+  <div id="twilight">
+    <div id="twilight-details">
+      <h2>Twilight <span id="princess">Princess</span></h2>
+    </div>
+    <div id="twilight-box" data-rellax-speed="1"></div>
+    <div id="rainbow">
+      <img src="img/rainbow2.png" id="size"/>
+    </div>
+  </div>
+
+  <div id="bond">
+    <div id="bond-details">
+      <h2>James <span id="wise">Bond</span></h2>
+    </div>
+    <div id="bond-box" data-rellax-speed="0.5"></div>
+    <div id="car">
+      <img src="img/car.png" />
+    </div>
+  </div>
+
+  <script src="rellax/rellax.min.js"></script>
+  <script>
+    var rellax = new Rellax('#batman-box');
+    var rellax2 = new Rellax('#indiana-box');
+    var rellax3 = new Rellax('#doctor-box');
+    var rellax4 = new Rellax('#twilight-box');
+    var rellax5 = new Rellax('#bond-box');
+  </script>
+
+</body>
+</html>
