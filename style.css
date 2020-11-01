@@ -58,7 +58,7 @@ h2 {
 #batman,
 #indiana,
 #doctor,
-#twilight,
+#bride,
 #bond {
   display: -ms-grid;
   display: grid;
@@ -85,7 +85,7 @@ h2 {
 #batman-image,
 #indiana-image,
 #doctor-image,
-#twilight-image,
+#bride-image,
 #bond-image {
   width: 100%;
   height: 100%;
@@ -154,9 +154,9 @@ h2 {
 }
 
 #sand {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 10;
-  grid-row: 1 / 11;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 9;
+  grid-row: 2 / 11;
   -ms-grid-column: 2;
   -ms-grid-column-span: 6;
   grid-column: 2 / 8;
@@ -202,21 +202,21 @@ h2 {
   place-self: center;
 }
 
-#twilight-box {
+#bride-box {
   -ms-grid-row: 4;
   -ms-grid-row-span: 5;
   grid-row: 4 / 9;
   -ms-grid-column: 2;
   -ms-grid-column-span: 8;
   grid-column: 2 / 10;
-  background-image: url("img/twilight.png");
+  background-image: url("img/the-bride.png");
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#twilight-details {
+#bride-details {
   -ms-grid-row: 6;
   -ms-grid-row-span: 4;
   grid-row: 6 / 10;
@@ -225,15 +225,15 @@ h2 {
   grid-column: 1 / 11;
   place-self: center;
   font-size: 8em;
-  color: #CE92E3;
+  color: #F8D11A;
   position: relative;
 }
 
-#princess {
-  color: #E6458B;
+#bride {
+  color: #E5141A;
 }
 
-#rainbow {
+#blood {
   -ms-grid-row: 2;
   -ms-grid-row-span: 9;
   grid-row: 2 / 11;
@@ -266,6 +266,7 @@ h2 {
   grid-column: 2 / 5;
   font-size: 8em;
   color: #7C1511;
+  position: relative;
 }
 
 #wise {
@@ -285,7 +286,7 @@ h2 {
 #batman-box,
 #indiana-box,
 #doctor-box,
-#twilight-box,
+#bride-box,
 #bond-box {
   -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
@@ -298,7 +299,7 @@ h2 {
   h2 {
     font-size: 1em;
   }
-  #blood-size {
+  #size {
     width: 90%;
   }
 }
@@ -310,7 +311,7 @@ h2 {
   h2 {
     font-size: 0.7em;
   }
-  #blood-size {
+  #size {
     width: 90%;
   }
 }
