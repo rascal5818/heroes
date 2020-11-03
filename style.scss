@@ -155,22 +155,20 @@ h2 {
 }
 
 #bride-details {
-  grid-row: 6 / 10;
+  grid-row: 6 / 11;
   grid-column: 1 / 11;
   place-self: center;
   font-size: 8em;
   color: #F8D11A;
-  position: relative;
 }
 
-#bride {
+#brides {
   color: #E5141A;
 }
 
 #blood {
-  grid-row: 2 / 11;
-  grid-column: 1 / 11;
-  place-self: center;
+  grid-row: 1 / 11;
+  grid-column: 1 / 10;
 }
 
 #bond-box {
@@ -190,7 +188,7 @@ h2 {
   position: relative;
 }
 
-#wise {
+#bond {
   color: #677373;
 }
 
@@ -218,6 +216,7 @@ h2 {
   }
 
   #size {
+    height: 90%;
     width: 90%;
   }
 }
@@ -232,6 +231,7 @@ h2 {
   }
 
   #size {
+    height: 90%;
     width: 90%;
   }
 }
